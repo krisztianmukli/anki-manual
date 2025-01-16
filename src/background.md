@@ -1,141 +1,63 @@
-# Background
+# Háttér
 
 <!-- toc -->
 
-Anki is a program which makes remembering things easy. Because it is a
-lot more efficient than traditional study methods, you can either
-greatly decrease your time spent studying, or greatly increase the
-amount you learn.
+Az Anki egy olyan program, amely megkönnyíti az emlékezést. Mivel sokkal hatékonyabb, mint a hagyományos tanulási módszerek, vagy jelentősen csökkentheti a tanulásra fordított időt, vagy jelentősen növelheti a tanultakat.
 
-Anyone who needs to remember things in their daily life can benefit from
-Anki. Since it is content-agnostic and supports images, audio, videos
-and scientific markup, the possibilities are endless. For
-example:
+Bárki, akinek a mindennapi életben szüksége van arra, hogy emlékezzen dolgokra, hasznát veheti az Ankinak. Mivel független a tartalomtól, és támogatja a képeket, hangokat, videókat és tudományos jelöléseket, a lehetőségek végtelenek. Használható például:
 
-- Learning a language
+- Nyelvtanuláshoz
 
-- Studying for medical and law exams
+- Egészségügyi és jogi példákat tanulni
 
-- Memorizing names and faces of people
+- Neveket és arcokat memorizálni
 
-- Brushing up on geography
+- A földrajz felfrissítéséhez
 
-- Mastering long poems
+- Hosszú verseket elsajátítani
 
-- Even practising guitar chords!
+- Még gitárakkordok gyakorlására is!
 
-There are two simple concepts behind Anki: **active recall testing** and
-**spaced repetition**. They are not known to most learners, despite being well-documented in scientific literature.
-Understanding how these concepts work will make you a more effective learner.
+Az Anki mögött két egyszerű koncepció áll: az **aktív felidézés tesztelése** és az **időközönkénti ismétlés**. Ezek a legtöbb tanuló számára nem ismertek, annak ellenére, hogy a tudományos szakirodalomban jól dokumentáltak. Ha megérted, hogyan működnek ezek a fogalmak, hatékonyabban tanulhatsz.
 
-## Active Recall Testing
+## Aktív felidézés tesztelése
 
-_Active recall testing_ means being asked a question and trying to
-remember the answer. This is in contrast to _passive study_, where we
-read, watch, or listen to something without pausing to consider if we
-know the answer. Research has shown that active recall testing is far
-more effective at building strong memories than passive study. There are
-two reasons for this:
+Az _aktív felidézés tesztelése_ azt jelenti, hogy felteszünk egy kérdést, és megpróbálunk emlékezni a válaszra. Ez ellentétben áll a passzív tanulással, amikor olvasunk, nézünk vagy hallgatunk valamit anélkül, hogy megállnánk, hogy elgondolkodjunk, tudjuk-e a választ. Kutatások kimutatták, hogy az aktív felidézés tesztelése sokkal hatékonyabb az erős memória kialakításában, mint a passzív tanulás. Ennek két oka van:
 
-- The act of recalling something _strengthens_ the memory, increasing
-  the chances we’ll be able to remember it again.
+- A felidézés aktusa _megerősíti_ az emléket, és növeli annak esélyét, hogy újra emlékezni fogunk rá.
 
-- When we're unable to answer a question, it tells us we need to
-  return to the material to review or relearn it.
+- Amikor nem tudunk válaszolni egy kérdésre, az azt jelzi, hogy vissza kell térnünk az anyaghoz, hogy átnézzük vagy újra megtanuljuk azt.
 
-You have probably encountered active recall testing in your school years
-without even realizing it. When good teachers give you a series of
-questions to answer after reading an article, or make you take weekly
-tests, they are not doing it simply to see if you
-understood the material or not. By testing you, they are increasing the
-chances you will be able to remember the material in the future.
+Valószínűleg találkoztál már az aktív felidézés tesztelésével az iskolai éveid alatt, anélkül, hogy észrevetted volna. Amikor a jó tanárok egy cikk elolvasása után kérdéssorozatot adnak válaszul, vagy heti teszteket íratnak veled, nem egyszerűen azért teszik, hogy lássák, megértetted-e az anyagot vagy sem. Azzal, hogy tesztelnek téged, növelik annak az esélyét, hogy a jövőben képes leszel emlékezni az anyagra.
 
-A good way to integrate active recall testing into your own studies is
-to use _flashcards_. With traditional paper flashcards, you write a
-question on one side of a card, and the answer on the other side. By not
-turning the card over until you've recalled the answer, you can
-learn things more effectively than passive observation allows.
+Az aktív felidézés tesztelését beépítheted a tanulmányaidba _tanulókártyák_ használatával. A hagyományos papíralapú tanulókártyáknál a kártya egyik oldalára egy kérdést, a másik oldalára pedig a választ írjuk. Azzal, hogy nem fordítod meg a kártyát, amíg fel nem idézed a választ, hatékonyabban tanulhatsz meg dolgokat, mint ahogy azt a passzív megfigyelés lehetővé teszi.
 
-## Use It or Lose It
+## Használd vagy elveszíted!
 
-Our brains are efficient machines, and they rapidly forget information
-that doesn't seem useful. Chances are that you don't remember what you
-had for dinner on Monday two weeks ago, because this information is not
-usually useful. However, if you went to a fantastic restaurant that day and have spent
-the last two weeks telling people about how great it was,
-you're likely to still remember it in vivid detail.
+Agyunk hatékony gépezet, és gyorsan elfelejti a nem hasznosnak tűnő információkat. Valószínű, hogy nem emlékszel arra, hogy mit vacsoráztál hétfőn két héttel ezelőtt, mert ez az információ általában nem hasznos. Ha azonban aznap egy fantasztikus étteremben voltál, és az elmúlt két hétben arról meséltél az embereknek, hogy milyen nagyszerű volt, akkor valószínűleg még mindig élénk részletességgel emlékszel rá.
 
-The brain's "use it or lose it" policy applies to everything we learn.
-If you spend an afternoon memorizing some science terms, and then don't
-think about that material for two weeks, you'll probably have forgotten
-most of it. In fact, studies show we forget about 75% of material learnt
-within a 48 hour period. This can seem pretty depressing when you need
-to learn a lot of information!
+Az agy "használd vagy elveszíted" elve mindenre vonatkozik, amit tanulunk. Ha egy délutánt azzal töltesz, hogy bemagolsz néhány tudományos kifejezést, majd két hétig nem gondolsz az anyagra, valószínűleg elfelejted a nagy részét. Sőt, tanulmányok szerint a megtanult anyag 75%-át 48 órán belül elfelejtjük. Ez elég lehangolónak tűnhet, ha sok információt kell megtanulnod!
 
-However, the solution is simple: _review_. By reviewing newly-learnt
-information, we can greatly reduce forgetting.
+A megoldás azonban egyszerű: _felülvizsgálat_. Az újonnan tanult információk áttekintésével nagymértékben csökkenthetjük a felejtést.
 
-The only problem is that traditionally, reviewing has not been very practical. If
-you are using paper flashcards, it's easy to flick through all of them
-if you only have 30 of them to review, but as the number grows to 300 or
-3000, it quickly becomes unmanageable.
+Az egyetlen probléma az, hogy a felülvizsgálat hagyományos módja nem túl praktikus. Ha papíralapú tanulókártyákat használsz, könnyen átlapozhatod az összeset, ha csak 30 van belőlük, de ha a számuk 300-ra vagy 3000-re nő, ez gyorsan kezelhetetlenné válik.
 
-## Spaced Repetition
+## Időközönkénti ismétlés
 
-The _spacing effect_ was reported in 1885 by a German psychologist called Hermann Ebbinghaus. He
-observed that we tend to remember things more effectively, if we spread
-reviews out over time, instead of studying multiple times in one
-session. Since the 1930s, there have been a number of proposals for
-utilizing the spacing effect to improve learning, in what has come to be
-called _spaced repetition_.
+Az _elosztott ismétlés hatásáról_ 1885-ben egy Hermann Ebbinghaus nevű német pszichológus számolt be. Megfigyelte, hogy hajlamosak vagyunk hatékonyabban megjegyezni dolgokat, ha az áttekintéseket időben elosztjuk, ahelyett, hogy egy ülésen belül többször tanulnánk. Az 1930-as évek óta számos javaslat született arra vonatkozóan, hogy a tanulás javítása érdekében hogyan lehet kihasználni a elosztott ismétlés hatását, amit _időközönkénti ismétlésnek_ neveznek.
 
-One example was in 1972, when a German scientist called Sebastian Leitner
-popularized a method of spaced repetition with paper flashcards. By
-separating the paper cards into a series of boxes, and moving the
-cards to a different box on each successful or unsuccessful review, it
-was possible to see at a glance a rough estimate of how well a card was
-known and when it should be reviewed again. This was a great improvement
-over a single box of cards, and it has been widely adopted by
-computerized flashcard software. It is a rather rough approach however,
-as it cannot give you an exact date on which you should review something
-again, and it does not work very well with material of varying
-difficulty.
+Például 1972-ben, egy Sebastian Leitner nevű német tudós papíralapú tanulókártyák segítségével népszerűsítette az időközönkénti ismétléses tanulás módszerét. Azáltal, hogy a papírkártyákat egy sor dobozba osztották, és minden sikeres vagy sikertelen ismétléskor a kártyákat egy másik dobozba helyezték át, egy pillantással meg lehetett állapítani, hogy egy kártyát mennyire jól ismerünk, és mikor kell azt újra átismételni. Ez nagy előrelépés volt az egyetlen doboznyi kártyához képest, és a számítógépes tanulókártya-szoftverek széles körben átvették. Ez azonban meglehetősen durva megközelítés, mivel nem tud pontos időpontot adni, amikor újra át kell nézni valamit, és nem működik túl jól a különböző nehézségű anyagok esetében.
 
-The biggest developments in the last 30 years have come from the authors
-of SuperMemo, a commercial flashcard program that implements spaced
-repetition. SuperMemo pioneered the concept of a system that keeps track
-of the ideal time to review material and optimizes itself based on the
-performance of the user.
+Az elmúlt 30 év legnagyobb fejlesztéseit a SuperMemo, egy kereskedelmi forgalomban kapható tanulókártya-program szerzői hozták létre, amely az ütemezett ismétlést alkalmazza. A SuperMemo úttörő szerepet játszott egy olyan rendszer koncepciójában, amely nyomon követi az anyag átismétlésének ideális idejét, és a felhasználó teljesítménye alapján optimalizálja magát.
 
-In SuperMemo's spaced repetition system, every time you answer a
-question, you tell the program how well you were able to remember it —
-whether you forgot completely, made a small mistake, remembered with
-trouble, remembered easily, etc. The program uses this feedback to
-decide the optimal time to show you the question again. Because a memory
-gets stronger each time you successfully recall it, the time between
-reviews gets longer and longer — so you may see a question for the first
-time today, then 3 days later, 15 days later, 45 days later, and so on.
+A SuperMemo időközönkénti ismétléses rendszerében minden alkalommal, amikor válaszolsz egy kérdésre, megmondod a programnak, hogy mennyire tudtad megjegyezni - teljesen elfelejtetted-e, követtél-e el egy kis hibát, nehezen emlékeztél-e, könnyen emlékeztél-e stb. A program ezt a visszajelzést használja fel annak eldöntésére, hogy mikor lenne optimális a kérdés újbóli megmutatása. Mivel a memória minden egyes alkalommal, amikor sikeresen felidézed, egyre erősebbé válik, az ismétlések között egyre hosszabb idő telik el - így előfordulhat, hogy ma látod először a kérdést, majd 3 nap múlva, 15 nap múlva, 45 nap múlva, és így tovább.
 
-This was a revolution in learning, as it meant material could be learnt
-and retained with the absolute minimum amount of effort necessary.
-SuperMemo's slogan sums it up: with spaced repetition, you can: "forget
-about forgetting".
+Ez forradalmi változást jelentett a tanulásban, mivel az anyagot a lehető legkisebb erőfeszítéssel lehetett megtanulni és megtartani. A SuperMemo szlogenje jól összefoglalja a lényeget: a szakaszos ismétléssel megteheted, hogy: "elfelejted a felejtést".
 
-## Why Anki?
+## Miért az Anki?
 
-While there is no denying the huge impact SuperMemo has had on the
-field, it is not without its problems. The program is often criticized
-for being buggy and difficult to navigate. It only runs on Windows
-computers. It is proprietary software, meaning that end-users cannot extend it
-or access the raw data. And while very old versions have been made available
-for free, they are quite limited for modern use.
+Bár tagadhatatlan, hogy a SuperMemo óriási hatást gyakorolt a területre, nem mentes a problémáktól. A programot gyakran kritizálják, hogy bugos és nehezen navigálható. Csak Windows számítógépeken fut. Kereskedelmi szoftver, ami azt jelenti, hogy a végfelhasználók nem tudják bővíteni, illetve nem férhetnek hozzá a nyers adatokhoz. És bár a nagyon régi verziókat ingyenesen elérhetővé tették, azok modern használatra meglehetősen korlátozottak.
 
-Anki addresses these issues. There are free clients for Anki available
-on many platforms, so struggling students and teachers with budgetary
-constraints are not left out. Anki is open source, with an already
-flourishing library of add-ons contributed by end-users. It is
-multi-platform, running on Windows, macOS, Linux/FreeBSD, and some
-mobile devices. And it is considerably easier to use than SuperMemo.
+Az Anki megoldást kínál ezekre a problémákra. Az Ankihoz számos platformon elérhető ingyenes kliens, így a nehéz helyzetben lévő diákok és a költségvetési korlátokkal küzdő tanárok sem maradnak ki. Az Anki nyílt forráskódú, és a végfelhasználók által hozzáadott bővítmények virágzó könyvtárával rendelkezik. Többplatformos, fut Windowson, macOS-en, Linuxon/FreeBSD-n és mobileszközökön. És lényegesen egyszerűbb használni, mint a SuperMemo-t.
 
-Anki's spaced repetition system is based on an older version of the
-SuperMemo algorithm called [SM-2](https://faqs.ankiweb.net/what-spaced-repetition-algorithm). Recently, a new algorithm called [FSRS](https://docs.ankiweb.net/deck-options.html?highlight=FSRS#fsrs) has been integrated as an alternative to the legacy SM-2 algorithm.
+Az Anki időközönkénti ismétléses rendszere a SuperMemo algoritmus egy régebbi, [SM-2](https://faqs.ankiweb.net/what-spaced-repetition-algorithm) nevű változatán alapul. A közelmúltban egy új, [FSRS](https://docs.ankiweb.net/deck-options.html?highlight=FSRS#fsrs) nevű algoritmus is integrálásra került, a régebbi SM-2 algoritmus alternatívájaként.
