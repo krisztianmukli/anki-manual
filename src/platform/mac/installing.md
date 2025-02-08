@@ -25,7 +25,7 @@ Ha [Homebrew](https://brew.sh/)-t használsz, telepítheted az Ankit a `brew ins
 
 Frissítéshez használd a `brew upgrade`, eltávolításhoz a `brew uninstall --cask anki` parancsokat.
 
-## Bővítmény kompatibilitás
+## Kiegészítő kompatiblitás
 
 Egyes kiegészítők nem mindig működnek a legújabb Anki-kiadással. Ha frissítesz a legújabb Anki verzióra, és úgy találod, hogy egy olyan kiegészítő, amely nélkül nem tudsz élni, nem működik, letöltheted a régebbi Anki verziókat a [kiadások oldalról](https://github.com/ankitects/anki/releases).
 

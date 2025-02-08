@@ -1,13 +1,11 @@
-## Display Issues on Linux
+## Megjelenítési hibák Linuxon
 
-Hardware acceleration defaults to on. If you experience blank screens
-or display issues, you can try enabling software rendering using the terminal:
+A hardveres gyorsítás alapértelmezés szerint be van kapcsolva. Ha üres képernyőt vagy megjelenítési problémákat tapasztalsz, próbáld meg engedélyezni a szoftveres renderelést a terminál segítségével:
 
 ```
 echo software > ~/.local/share/Anki2/gldriver6
 ```
 
-If you wish to switch back to the default, change `software` to `auto`, or
-remove that file.
+Ha vissza szeretne váltani az alapértelmezettre, állítsa a `software` értéket `auto`-ra, vagy távolítsd el a fájlt.
 
-In Anki 23.10+, you can also change the graphics driver from preferences screen.
+Az Anki 23.10+ verzióban a grafikus vezérlőt a beállítások képernyőn is megváltoztathatod.

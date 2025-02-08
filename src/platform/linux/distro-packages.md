@@ -1,22 +1,10 @@
-# Packages Distributed by Linux Distributions
+# Linux disztribúciók által terjesztett csomagok
 
-We have seen a lot of issues caused by the customized versions of Anki
-distributed by Linux distributions:
+Sok olyan problémát láttunk, amelyet az Anki Linux disztribúciók által terjesztett testreszabott verziói okoztak:
 
-- Anki depends on third-party libraries like Qt, and Linux distributions often
-  substitute different versions of those libraries, without testing the impact
-  of those changes.
-- Sometimes the version of Anki they distribute is years old, or is an
-  alpha/beta version not intended for stable release. Distributions will often
-  disable the built-in update check as well, to prevent you from being notified
-  of newer versions.
+- Az Anki olyan harmadik féltől származó könyvtáraktól függ, mint a Qt, és a Linux disztribúciók gyakran helyettesítik e könyvtárak különböző verzióit anélkül, hogy tesztelnék a változások hatását.
+- Előfordul, hogy az Anki általuk forgalmazott verziója több éves, vagy egy alfa/béta verzió, amelyet nem stabil kiadásra szántak. A disztribúciók gyakran kikapcsolják a beépített frissítés-ellenőrzést is, hogy ne kapjon értesítést az újabb verziókról.
 
-Compiled builds of Anki are available on <https://apps.ankiweb.net>. Most of the
-necessary libraries are included, and Anki has been tested to work with these
-library versions. If you're experiencing issues with your distro's version, the
-first thing you should try is switching to the latest packaged version we
-provide.
+Az Anki futtatható buildjei elérhetőek a <https://apps.ankiweb.net> oldalon. A legtöbb szükséges könyvtárat tartalmazzák, és az Anki tesztelve van, hogy ezekkel a könyvtárakkal működik. Ha problémákat tapasztalsz a disztribúciód verziójával, az első dolog, amit ki kell próbálnod, hogy átváltasz az általunk biztosított legújabb csomagolt verzióra.
 
-You are welcome to continue using your distro's version of Anki if you prefer,
-but if you run into any issues, you will need to report them to your
-distribution's package maintainers.
+Nyugodtan használhatod továbbra is a disztribúciód Anki verzióját, ha szeretnéd, de ha bármilyen problémába ütközöl, azt a disztribúciód csomagkarbantartóinak kell jelentened.

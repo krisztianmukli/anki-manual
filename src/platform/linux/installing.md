@@ -1,35 +1,30 @@
-# Installing & Upgrading Anki on Linux
+# Anki telepítése és frissítése Linux alatt
 
 <!-- toc -->
 
-## Requirements
+## Követelmények
 
-The packaged version requires a recent 64 bit Intel/AMD Linux with glibc, and common
-libraries like libwayland-client and systemd. If you are on a different
-architecture (e.g ARM/AArch64), or a barebones Linux distro, you will not be able to use the
-packaged version, but you may be able to use the [Python wheels](https://betas.ankiweb.net/#via-pypipip)
-instead.
+A csomagolt verzióhoz egy friss 64 bites Intel/AMD Linux szükséges glibc-vel, valamint olyan közös könyvtárakkal, mint a libwayland-client és a systemd. Ha más architektúrán (pl. ARM/AArch64), vagy egy csupasz Linux disztribúción dolgozol, akkor lehetséges, hogy nem fogod tudni használni a csomagolt verziót, helyette próbáld meg [Python wheels](https://betas.ankiweb.net/#via-pypipip) csomagból telepíteni.
 
-Debian and derivatives, such as Ubuntu and [Chromebooks with Linux enabled](https://support.google.com/chromebook/answer/9145439?), please use the following before
-installing:
+Debianon és származékain, mint például az Ubuntun és olyan [Chromebookokon ahol a Linux engedélyezve van](https://support.google.com/chromebook/answer/9145439?), használd a következőket telepítés előtt:
 
 ```shell
 sudo apt install libxcb-xinerama0 libxcb-cursor0 libnss3
 ```
 
-If Anki fails to start after installing, you may be [missing other libraries](./missing-libraries.md).
+Ha az Anki nem indul el a telepítés után, akkor lehet, hogy [más könyvtárak hiányoznak](./missing-libraries.md).
 
-If you're on Ubuntu 24.04 and Anki won't start, please see [this thread](https://forums.ankiweb.net/t/issues-running-on-ubuntu-24-04/40974).
+Ha Ubuntu 24.04-et használsz, és az Anki nem indul el, nézd meg [ezt a témát](https://forums.ankiweb.net/t/issues-running-on-ubuntu-24-04/40974).
 
-Anki's build system only supports glibc, so musl-based distros are not currently supported.
+Az Anki build rendszere csak a glibc-t támogatja, így a musl-alapú disztribúciók jelenleg nem támogatottak.
 
-## Installing
+## Telepítés
 
-To install Anki:
+Az Anki telepítéséhez:
 
-1. Download Anki from <https://apps.ankiweb.net> to your Downloads folder.
-2. If zstd is not already installed on your system, you'll need to install it (e.g `sudo apt install zstd`).
-3. Open a terminal and run the following commands, replacing the filename as appropriate.
+1. Töltsd le az Ankit a <https://apps.ankiweb.net> címről a Letöltések mappába.
+2. Ha a zstd még nincs telepítve a rendszeredre, akkor telepítened kell (pl. `sudo apt install zstd`).
+3. Nyiss egy terminált, és futtasd a következő parancsokat a megfelelő fájlnevek cseréjével.
 
 ```shell
 tar xaf Downloads/anki-2XXX-linux-qt6.tar.zst
@@ -37,39 +32,31 @@ cd anki-2XXX-linux-qt6
 sudo ./install.sh
 ```
 
-On some Linux systems, you may need to use `tar xaf --use-compress-program=unzstd`.
+Egyes Linux rendszereken szükség lehet a `tar xaf --use-compress-program=unzstd` használatára.
 
-4. You can then start Anki by typing 'anki' and hitting enter. If you encounter
-   any issues, please see the links on the left.
+4. Ezután elindíthatod az Anki-t az 'anki' beírásával és az enter megnyomásával. Ha bármilyen problémával találkozol tekintsd meg a bal oldali linkeket.
 
-## Upgrading
+## Frissítés
 
-If you were running Anki from a .deb/.rpm/etc in the past, please make
-sure to remove the system version before installing the package
-provided here.
+Ha korábban .deb/.rpm/etc-ről futtattad az Anki-t, kérlek, távolítsd el a rendszerverziót, mielőtt telepíted az itt található csomagot.
 
-If you're upgrading from a previous package, simply repeat the
-installation steps to upgrade to the latest version. Your user data
-will be preserved.
+Ha egy korábbi csomagról frissítesz, egyszerűen ismételd meg a
+a telepítés lépéseit a legújabb verzióra való frissítéshez. A felhasználói adatok megmaradnak.
 
-If you wish to downgrade to a previous version, please make sure you
-[downgrade first](http://changes.ankiweb.net).
+Ha egy korábbi verzióhoz szeretnél visszatérni, kérjük, előbb mindenképpen végezd el a [visszaléptetést](http://changes.ankiweb.net).
 
-## Add-on Compatibility
+## Kiegészítő kompatiblitás
 
-Some add-ons may not always work with the latest Anki release. If you upgrade to
-the latest Anki version and find an add-on you cannot live without stops working,
-you can download older Anki versions from the [releases page](https://github.com/ankitects/anki/releases).
+Egyes kiegészítők nem mindig működnek a legújabb Anki-kiadással. Ha frissítesz a legújabb Anki verzióra, és úgy találod, hogy egy olyan kiegészítő, amely nélkül nem tudsz élni, nem működik, letöltheted a régebbi Anki verziókat a [kiadások oldalról](https://github.com/ankitects/anki/releases).
 
-## Problems
+## Problémák
 
-If you encounter any issues when installing or starting Anki, please see the
-following pages:
+Ha az Anki telepítése vagy elindítása során bármilyen problémával találkozol, kérlek, tekintd meg a következő oldalakat:
 
-- [Missing Libraries](missing-libraries.md)
-- [Display Issues](display-issues.md)
-- [Blank Main Window](blank-window.md)
-- [Linux Distro Packages](distro-packages.md)
-- [Incorrect GTK Theme](gtk-theme.md)
+- [Hiányzó könyvtárak](missing-libraries.md)
+- [Megjelenítési hibák](display-issues.md)
+- [Üres főablak](blank-window.md)
+- [Linux disztró csomagok](distro-packages.md)
+- [Hibás GTK téma](gtk-theme.md)
 - [Wayland](wayland.md)
-- [Input Methods](input-methods.md)
+- [Beviteli módszerek](input-methods.md)

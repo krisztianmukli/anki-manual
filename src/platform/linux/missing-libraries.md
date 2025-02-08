@@ -1,14 +1,11 @@
-# Missing Libraries
+# Hiányzó könyvtárak
 
-If Anki fails to start, please run it from a terminal with `anki`. If it says a
-library is missing, please install it and try again.
+Ha az Anki nem indul el, kérlek, futtasd terminálból a `anki` parancsot. Ha azt mondja, hogy egy könyvtár hiányzik, telepítsd azt és próbáld újra.
 
-If it complains about no platform being available, please start Anki with the
-following command line, which should reveal a missing library:
+Ha arra panaszkodik, hogy nincs elérhető platform, indítsd el az Anki-t a következő parancssorral, ami megmutatja, hogy ha hiányzik egy könyvtár:
 
 ```shell
 QT_DEBUG_PLUGINS=1 anki
 ```
 
-After installing the library with apt-get or similar, repeat the process. You
-may need to do this a few times before all required libraries are installed.
+Miután telepítetted a könyvtárat az apt-get vagy hasonló segítségével, ismételd meg a folyamatot. Lehet, hogy ezt többször is meg kell tenned, mire az összes szükséges könyvtár települ.

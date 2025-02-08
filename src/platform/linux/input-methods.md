@@ -1,8 +1,5 @@
-# Input Methods on Linux
+# Beviteli módszerek Linuxon
 
 ## Fcitx
 
-The standard Anki build includes fcitx support, but it may not work on
-all distributions. If you are unable to use fcitx, you may want to run
-Anki from [Python wheels](https://betas.ankiweb.net/#via-pypipip)
-instead.
+A standard Anki build tartalmazza az fcitx támogatást, de nem biztos, hogy minden disztribúción működik. Ha nem tudod használni az fcitxet, akkor érdemes lehet helyette [Python wheels](https://betas.ankiweb.net/#via-pypipip) csomagból futtatni az Ankit.

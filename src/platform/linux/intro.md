@@ -1,10 +1,10 @@
 # Linux
 
-## Installing & Upgrading Anki on Linux
+## Anki telepítése és frissítése Linux alatt
 
-For instructions on how to install or upgrade Anki on Linux, please see:
-- [Install & Upgrade](installing.md)
+Az Anki Linuxra történő telepítésére vagy frissítésére vonatkozó utasításokat lásd:
+- [Telepítés és frissítés](installing.md)
 
-## Problems
+## Problémák
 
-If you encounter any issues when installing or starting Anki, please see the subsections in the table of contents.
+Ha az Anki telepítése vagy elindítása során bármilyen problémával találkozol, tekintsd meg a tartalomjegyzék alfejezeteit.
