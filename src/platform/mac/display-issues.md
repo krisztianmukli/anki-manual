@@ -1,28 +1,25 @@
-# Display Issues on macOS
+# macOS Megjelenítési problémák
 
 <!-- toc -->
 
-## Qt6 Video Driver
+## Qt6 Videoillesztőprogram
 
-If you're experiencing display issues or crashes in Anki 23.10+, you can try
-changing the video driver in the preferences screen, then restarting Anki.
+Ha megjelenítési problémákat vagy összeomlást tapasztalsz az Anki 23.10+-ban, próbáld meg megváltoztatni a videóillesztő-programot a beállítások képernyőn, majd indítsd újra az Anki-t.
 
-Older Anki versions did not provide an option in the preferences, but allowed
-you to adjust the driver by opening Terminal.app, then pasting the following and hit enter:
+A régebbi Anki verziók nem adtak erre lehetőséget a beállításokban, de lehetővé tették az illesztőprogram beállítását a Terminal.app megnyitásával, majd a következő sor beillesztésével és az enter megnyomásával:
 
 ```
 echo software > ~/Library/Application\ Support/Anki2/gldriver6
 ```
 
-It will not print anything. You can then start Anki again.
+Ez nem fog semmit sem kiírni. Ezután újra kell indítanod az Ankit.
 
-If you wish to switch back to the default, change `software` to `auto`, or
-remove that file.
+Ha vissza szeretne váltani az alapértelmezettre, állítsa a `software` értéket `auto`-ra, vagy távolítsd el a fájlt.
 
-## eGPUs
+## Külső grafikus kártyák
 
-If you experience blank screens when using an external graphics card on a Mac, you can ctrl+click on the Anki app, click "Get Info", and enable the "prefer eGPU" option.
+Ha külső grafikus kártya használatával üres képernyőt tapasztalsz Mac-en, akkor a Ctrl nyomva tartása mellett kattints az Anki-ra, majd kattints a "Get Info" menüpontra és engedélyezd a "Prefer eGPU" opciót.
 
-## Monitors with different resolutions
+## Különböző felbontású monitorok
 
-Please see [this forum post](https://forums.ankiweb.net/t/mac-known-issues-wording-suggestion/7331).
+Nézd meg [ezt a fórum posztot](https://forums.ankiweb.net/t/mac-known-issues-wording-suggestion/7331).

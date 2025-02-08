@@ -1,20 +1,18 @@
-# Windows installation issues
+# Telepítési problémák Windowson
 
-Some error messages you may encounter when installing Anki:
+Néhány hibaüzenet, amellyel az Anki telepítésekor találkozhatsz:
 
 <!-- toc -->
 
-Please also see [startup issues](./startup-issues.md).
+Lásd még az [indítási problémákat](./startup-issues.md).
 
-## "Error opening file for writing"
+## "Hiba a fájl megnyitásakor az íráshoz" ("Error opening file for writing")
 
-If closing Anki and your browser does not help, please try restarting your
-computer, then running the installer again.
+Ha az Anki és a böngésző bezárása nem segít, próbáld meg újraindítani a
+a számítógépet, majd futtasd újra a telepítőt.
 
-## "Windows protected your PC"
+## "A Windows megvédte a számítógépet" ("Windows protected your PC")
 
-When a new Anki version is released, Windows may display a scary-looking message
-until it has seen enough people using the new version. To be able to proceed
-with app installation, please use [Run anyway](https://www.tekrevue.com/tip/windows-protected-your-pc-disable-smartscreen/).
+Amikor egy új Anki-verzió jelenik meg, a Windows egy ijesztőnek tűnő üzenetet jelenít meg, amíg nem látja, hogy elég sokan használják az új verziót. Ahhoz, hogy folytatni tudd az alkalmazás telepítését, használd a [Futtatás mindenképpen](https://www.tekrevue.com/tip/windows-protected-your-pc-disable-smartscreen/) parancsot.
 
-Antivirus programs may sometimes also report a [false positive](https://faqs.ankiweb.net/my-antivirus-program-says-anki-is-infected.html).
+A vírusirtó programok néha [hamis pozitív](https://faqs.ankiweb.net/my-antivirus-program-says-anki-is-infected.html) eredményt is jelenthetnek.

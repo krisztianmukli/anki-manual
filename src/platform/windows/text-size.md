@@ -1,21 +1,14 @@
-# Text Size
+# Szövegméret
 
-If you find the text is the wrong size, there are two environmental
-variables you can try:
+Ha úgy találod, hogy a szöveg nem megfelelő méretű, próbáld meg a következő környezeti változókat beállítani:
 
-- ANKI_NOHIGHDPI=1 will turn off some of Qt’s high dpi support
+- Az ANKI_NOHIGHDPI=1 kikapcsolja a QT nagy DPI támogatásának egy részét
 
-- ANKI_WEBSCALE=1 will alter the scale of Anki’s web views (like the
-  deck list, study screen, etc), while leaving interface elements like
-  the menu bar alone. Replace 1 with the desired scale, such as 1.5 or
-  0.75.
+- Az ANKI_WEBSCALE=1 megváltoztatja az Anki webes nézeteinek (mint a pakli lista, a tanulóképernyő stb.) méretarányát, miközben a felület olyan elemeit, mint a menüsor, békén hagyja. Az 1-et helyettesítsd a kívánt méretaránnyal, például 1,5 vagy 0,75.
 
-On Windows you can add these to a batch file to make it easier to start
-Anki. For example, create a file called startanki.bat on your desktop
-with the following text:
+Windows alatt hozzáadhatod ezeket egy kötegelt parancsfájlhoz, hogy egyszerűsítsd az Anki indítását. Például hozz létre egy startanki.bat nevű fájlt az asztalodon, a következő tartalommal:
 
     set ANKI_WEBSCALE=0.75
     start "Anki" "C:\Program Files\Anki\anki"
 
-After saving, you can double click on the file to start Anki with that
-setting.
+Mentés után dupla kattintással indíthatod el az Anki-t a megadott beállításokkal.

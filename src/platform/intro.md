@@ -1,9 +1,9 @@
-# Platform Notes
+# Rendszerspecifikus megjegyzések
 
-This section explains the way Anki is installed, and the possible problems you may encounter, depending on your OS:
+Ez a szakasz elmagyarázza az Anki telepítésének módját, és a lehetséges problémákat, amelyekkel az operációs rendszertől függően találkozhatsz:
 
 - [Windows](./windows/intro.md)
 - [macOS](./mac/intro.md)
 - [Linux](./linux/intro.md)
 
-If you have already installed Anki, you can skip to the [Getting Started](../getting-started.md) section.
+Ha már telepítetted az Ankit, akkor ugorhatsz a [Kezdő lépések](../getting-started.md) részre.

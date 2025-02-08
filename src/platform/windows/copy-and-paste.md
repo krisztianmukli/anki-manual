@@ -1,6 +1,3 @@
-# Copy and paste issues
+# Másolási és beillesztési problémák
 
-If you are experiencing problems with copying and pasting, please check if you
-are running other programs on your computer that monitor the clipboard, such as
-dictionary programs, clipboard managers or clipping tools. The toolkit Anki uses
-can have trouble when such programs are running.
+Ha a másolással és beillesztéssel kapcsolatos problémákat tapasztalsz, ellenőrizd, hogy futtatsz-e a számítógépeden más olyan programokat, amelyek figyelik a vágólapot, mint például a szótárprogramok, vágólapkezelők vagy vágóeszközök. Az Anki által használt eszközkészlet problémákat okozhat, ha ilyen programok futnak.

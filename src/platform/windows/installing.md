@@ -1,57 +1,45 @@
-# Installing & Upgrading Anki on Windows
+# Anki telepítése és frissítése Windows alatt
 
 <!-- toc -->
 
-## Requirements
+## Követelmények
 
-Recent Anki releases require a computer running the 64 bit version of Windows
-10 or 11.
+Az Anki legújabb kiadásaihoz a Windows 10 vagy 11 64 bites verzióját futtató számítógépre van szükség.
 
-- The last Anki release that supported Windows 7 and 8.1 was Anki 2.1.49.
-- The last Anki release that supported 32 bit Windows was [Anki 2.1.35-alternate](https://github.com/ankitects/anki/releases/tag/2.1.35).
+- Az Anki utolsó olyan kiadása, amely támogatta a Windows 7 és 8.1 operációs rendszert, az Anki 2.1.49 volt.
+- Az utolsó Anki kiadás, amely támogatta a 32 bites Windows-t, az [Anki 2.1.35-alternate](https://github.com/ankitects/anki/releases/tag/2.1.35) volt.
 
-If you're on an old machine, you can obtain old releases from the [releases page](https://github.com/ankitects/anki/releases).
+Ha régi géped van, a régi kiadásokat a [kiadások](https://github.com/ankitects/anki/releases) oldalról szerezheted be.
 
-## Installing
+## Telepítés
 
-To install Anki:
+Az Anki telepítéséhez:
 
-1. Download Anki from <https://apps.ankiweb.net>.
-2. Save the installer to your desktop or downloads folder.
-3. Double-click on the installer to run it. If you see an error
-   message, please see the [installation issues page](installation-issues.md).
-4. Once Anki is installed, double-click on the new star icon on your
-   desktop to start Anki.
+1. Töltsd le az Ankit a <https://apps.ankiweb.net> weboldalról.
+2. Mentsd el a telepítőt a Asztalra vagy a Letöltések mappába.
+3. A telepítő futtatásához kattints rá duplán. Ha hibaüzenetet látsz, tekintsd meg a [telepítési problémák](installation-issues.md) oldalt.
+4. Ha az Anki telepítése sikerült, kattints duplán az asztalon lévő ikonjára az Anki elindításához.
 
-## Upgrading
+## Frissítés
 
-If upgrading from Anki 2.1.6+, there is no need to uninstall the previous
-version first. All you need to do is close Anki if it is open, and then follow
-the installation steps above. Your cards will be preserved when you upgrade.
+Ha az Anki 2.1.6+ verzióról frissítesz, akkor nem szükséges eltávolítanod az előző verziót. Mindössze annyit kell tenned, hogy bezárod az Ankit, ha nyitva van, majd követed a fenti telepítési lépéseket. A kártyáid megmaradnak a frissítéskor.
 
-If upgrading from an Anki version before 2.1.6, or switching from the standard
-to the alternate version or vice versa, we recommend uninstalling the old
-version first, which will remove Anki's program data, but not delete your card
-data.
+Ha egy 2.1.6 előtti Anki verzióról frissítesz, vagy a standard verzióról az alternatív verzióra váltasz, azt javasoljuk, hogy először távolítsd el a régi verziót, ami eltávolítja az Anki programadatait, de nem törli a kártya adatokat.
 
-If you wish to downgrade to a previous version, please make sure you
-[downgrade first](http://changes.ankiweb.net).
+Ha egy korábbi verzióhoz szeretnél visszatérni, kérjük, előbb mindenképpen végezd el a [visszaléptetést](http://changes.ankiweb.net).
 
-## Add-on Compatibility
+## Kiegészítő kompatiblitás
 
-Some add-ons may not always work with the latest Anki release. If you upgrade to
-the latest Anki version and find an add-on you cannot live without stops working,
-you can download older Anki versions from the [releases page](https://github.com/ankitects/anki/releases).
+Egyes kiegészítők nem mindig működnek a legújabb Anki-kiadással. Ha frissítesz a legújabb Anki verzióra, és úgy találod, hogy egy olyan kiegészítő, amely nélkül nem tudsz élni, nem működik, letöltheted a régebbi Anki verziókat a [kiadások oldalról](https://github.com/ankitects/anki/releases).
 
-## Problems
+## Problémák
 
-If you encounter any issues when installing or starting Anki, please see the
-following pages:
-- [Installation Issues](installation-issues.md)
-- [Startup Issues](startup-issues.md)
-- [Display Issues](display-issues.md)
-- [Permission Problems](permission-problems.md)
+Ha az Anki telepítése vagy elindítása során bármilyen problémával találkozol, tekintsd meg a következő oldalakat:
+- [Telepítési problémák](installation-issues.md)
+- [Indítási problémák](startup-issues.md)
+- [Megjelenítési problémák](display-issues.md)
+- [Jogosultsági problémák](permission-problems.md)
 
-If you encounter any interface issues when using Anki, please see the following pages:
-- [Copy and Paste Issues](copy-and-paste.md)
-- [Text Size Issues](text-size.md)
+Ha az Anki használata során bármilyen problémával találkozol a kezelőfelülettel kapcsolatban, tekintsd meg a következő oldalakat:
+- [Másolás és beillesztés problémák](copy-and-paste.md)
+- [Szövegméret problémák](text-size.md)

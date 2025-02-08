@@ -1,33 +1,33 @@
-# Windows permission problems
+# Windows jogosultság problémák
 
 <!-- toc -->
 
-## Permission Problems
+## Jogosultság problémák
 
-If you receive "access denied" messages, some of Anki's files may be set to read only mode, meaning Anki is not able to write to them.
+Ha "hozzáférés megtagadva" üzeneteket kapsz, akkor az Anki néhány fájlja lehet, hogy csak olvasási módba van állítva, ami azt jelenti, hogy az Anki nem tudja írni őket.
 
-To fix the problem, you can do the following:
+A probléma javításához, tedd a következőket:
 
-- in the search area of the start bar, type cmd.exe and hit enter
-- in the window that opens, type the following and hit enter to see your username:
+- a Start menü keresőmezőjébe írd be, hogy cmd.exe és üss egy Entert 
+- a megnyíló ablakba írd be a következőt, és nyomd meg az Entert, hogy láthasd a felhasználóneved:
 
 whoami
 
-- type the following, hitting enter after each line, and replacing ____ (and keeping the :F part) with your username from the previous command
+- írd be a következőket, minden sor után nyomd le az Entert, és a ____ helyett (a :F részt megtartva) írd be az előző parancstól megkapott felhasználónevet
 
 cd %APPDATA%
 
 icacls Anki2 /grant ____:F /t
 
-That command should fix the permissions on Anki's data folder, and you should now be able to start the program.
+Ez a parancs negjavítja az Anki adatmappájának jogosultságait, ezután elindíthatod a programot.
 
-## Antivirus/Firewall/Anti-Malware
+## Vírusírtó/Tűzfal/Anti-Malware
 
-Some users have experienced "permission denied" or "readonly" errors that were caused by security software installed on their machine. You may need to add an exception for Anki, or try temporarily disabling the software to rule it out as the cause. Some users have reported that simply turning off their software did not fix the problem, and they either had to add an exception for Anki or uninstall the software.
+Néhány felhasználó "engedély megtagadva" vagy "csak olvasható" hibákat tapasztalt, amelyeket a gépükre telepített biztonsági szoftverek okoztak. Lehet, hogy kivételeket kell hozzáadnod az Anki számára, vagy megpróbálhatod ideiglenesen letiltani a szoftvert, hogy kizárd, hogy az okozza a problémát. Egyes felhasználók arról számoltak be, hogy a szoftver egyszerű kikapcsolása nem oldotta meg a problémát, és vagy hozzá kellett adniuk egy kivételt az Anki számára, vagy eltávolítaniuk a szoftvert.
 
-## Debugging Permission Problems
+## Jogosultsági problémák hibakeresése
 
-If problems persist after you've ruled out Antivirus and related programs, have performed the steps above to fix permissions, and don't use OneDrive, please run the following commands in cmd.exe, pressing enter after each one.
+Ha a problémák továbbra is fennállnak, miután kizártad a vírusirtót és a kapcsolódó programokat, végrehajtottad a fenti lépéseket az engedélyek javítására, és nem használod a OneDrive-ot, futtasd a következő parancsokat a cmd.exe programban, mindegyik után nyomd meg az Enter billentyűt.
 
 whoami
 
@@ -35,4 +35,4 @@ cd %APPDATA%
 
 icacls Anki2 /t
 
-Then please copy & paste or screenshot what you see, and post it to us in a support ticket.
+Ezután másold ki és illesszd be vagy készíts képernyőfotót arról, amit látsz, és küld el nekünk egy támogatási jegyben.

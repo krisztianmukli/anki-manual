@@ -1,36 +1,29 @@
-# Windows display issues
+# Windows megjelenítési problémák
 
 <!-- toc -->
 
-On Windows, there are three ways of content being displayed on screen. The
-default is _software_, which is slower, but the most compatible. There are two
-other options that are faster: _OpenGL_ and _ANGLE_. They are faster, but they
-may not work, or may cause display issues such as missing menubars, blank
-windows, and so on. Which one works best will depend on your computer.
+A Windows rendszeren a képernyőtartalom háromféleképpen jeleníthető meg. Az alapértelmezett a _szoftveres_, ami lassabb, de a leginkább kompatibilis. Van két másik lehetőség, amely gyorsabb: _OpenGL_ és _ANGLE_. Ezek gyorsabbak, de előfordulhat, hogy nem működnek, vagy megjelenítési problémákat okozhatnak, például hiányzó menüsorokat, üres ablakokat stb. Hogy melyik működik jobban, az a számítógépedtől függ.
 
-If you run into display issues, you can try switching to software mode via cmd:
+Ha megjelenítési problémákba ütközöl, megpróbálhatsz szoftveres módra váltani a parancssor segítségével:
 
 ```bat
 echo software > %APPDATA%\Anki2\gldriver6
 ```
 
-Or you can do it via PowerShell:
+Vagy a PowerShell használatával:
 
 ```powershell
 echo software > $env:APPDATA\Anki2\gldriver6
 ```
 
-It will not print anything. You can then start Anki again.
+Ez nem fog semmit sem kiírni. Ezután újra elindíthatod az Ankit.
 
-To revert to the default behaviour, change `software` to `auto`, or delete that file.
+Az alapértelmezett viselkedés visszaállításához változtasd a `software`-t `auto`-ra, vagy töröld a fájlt.
 
-In Anki 23.10+, you can also change the graphics driver from preferences screen.
+Az Anki 23.10+ verzióban a grafikus vezérlőt a beállítások képernyőn is megváltoztathatod.
 
-## Full screen
+## Teljes képernyő
 
-Anki 2.1.50+ comes with a full screen mode, but due to various issues, it had to
-be disabled while `OpenGL` is used. Turning on software rendering as described
-above will allow the full screen option to be used, though please bear in mind
-that rendering performance may suffer.
+Az Anki 2.1.50+ teljes képernyős móddal érkezik, de különböző problémák miatt le kellett tiltani, ha `OpenGL` van használatban. A szoftveres renderelés bekapcsolása a fent leírtak szerint lehetővé teszi a teljes képernyős opció használatát, bár vedd figyelembe, hogy a renderelés teljesítménye csökkenhet.
 
-In Anki 23.10+, full screen mode is supported with the default Direct3D driver.
+Az Anki 23.10+ verzióban a teljes képernyős mód az alapértelmezett Direct3D illesztőprogrammal támogatott.

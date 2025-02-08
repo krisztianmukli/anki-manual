@@ -1,41 +1,35 @@
-# Installing & Upgrading Anki on macOS
+# Anki telepítése és frissítése macOS alatt
 
 <!-- toc -->
 
-## Requirements
+## Követelmények
 
-macOS version requirements are listed on the download page.
+A macOS verziókövetelmények a letöltési oldalon találhatók.
 
-If you're on an old machine, you can obtain the old version from the [releases page](https://github.com/ankitects/anki/releases). The Qt5 builds on 24.11 and earlier support macOS 10.14 and later. If your macOS
-is between 10.10 and 10.13, you'll need to use [Anki 2.1.35-alternate](https://github.com/ankitects/anki/releases/tag/2.1.35).
+Ha régi géped van, a régi verziót a [kiadások oldalról](https://github.com/ankitects/anki/releases) szerezheted be. A 24.11-es és korábbi Qt5 buildek támogatják a macOS 10.14-es és újabb verzióját. Ha a macOS 10.10 és 10.13 között vagy, akkor az [Anki 2.1.35-alternate](https://github.com/ankitects/anki/releases/tag/2.1.35) verziót kell használnod.
 
-## Installing
+## Telepítés
 
-1. Download Anki from <https://apps.ankiweb.net>.
-2. Save the file to your desktop or downloads folder.
-3. Open it, and drag Anki to your Applications folder or desktop.
-4. Double-click on Anki in the location you placed it.
+1. Töltsd le az Ankit a <https://apps.ankiweb.net>-ről.
+2. Mentsd el a fájlt az asztalra, vagy a Letöltések mappádba.
+3. Nyisd meg és húzd az Anki-t az Alkalmazások mappádba vagy az asztalra.
+4. Kattints duplán az Ankira abban a mappában ahova tetted.
 
-## Upgrading
+## Frissítés
 
-To upgrade, close Anki if it is open, and then follow the steps above. Drag
-the Anki icon into the same location you previously stored it, and when prompted,
-overwrite the old version. Your card data will be preserved.
+A frissítéshez zárd be az Ankit, ha nyitva van, majd kövesd a fenti lépéseket. Húzd az Anki ikonját ugyanarra a helyre, ahol korábban tároltad, és amikor erre felszólít, írd felül a régi verziót. A kártyák adatai megmaradnak.
 
 ## Homebrew
 
-[Homebrew](https://brew.sh/) users can install Anki using
-`brew install --cask anki` in their preferred Terminal application.
+Ha [Homebrew](https://brew.sh/)-t használsz, telepítheted az Ankit a `brew install --cask anki` utasítás használatával a preferált Terminál alkalmazásban.
 
-Upgrading can be done using `brew upgrade`, and for uninstalling: `brew uninstall --cask anki`
+Frissítéshez használd a `brew upgrade`, eltávolításhoz a `brew uninstall --cask anki` parancsokat.
 
-## Add-on Compatibility
+## Bővítmény kompatibilitás
 
-Some add-ons may not always work with the latest Anki release. If you upgrade to
-the latest Anki version and find an add-on you cannot live without stops working,
-you can download older Anki versions from the [releases page](https://github.com/ankitects/anki/releases).
+Egyes kiegészítők nem mindig működnek a legújabb Anki-kiadással. Ha frissítesz a legújabb Anki verzióra, és úgy találod, hogy egy olyan kiegészítő, amely nélkül nem tudsz élni, nem működik, letöltheted a régebbi Anki verziókat a [kiadások oldalról](https://github.com/ankitects/anki/releases).
 
-## Problems
+## Problémák
 
-If you encounter any issues when installing or starting Anki, please see:
-- [Display Issues](display-issues.md)
+Ha az Anki telepítése vagy elindítása során bármilyen problémával találkozol, tekintsd meg a következőket:
+- [Megjelenítési problémák](display-issues.md)
