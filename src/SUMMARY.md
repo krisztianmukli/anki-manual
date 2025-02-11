@@ -24,7 +24,7 @@
     - [Hibás GTK téma](platform/linux/gtk-theme.md)
     - [Wayland](platform/linux/wayland.md)
     - [Beviteli módszerek](platform/linux/input-methods.md)
-- [Getting Started](getting-started.md)
+- [Kezdő lépések](getting-started.md)
 - [Getting Help](getting-help.md)
 - [Studying](studying.md)
 - [Adding/Editing](editing.md)

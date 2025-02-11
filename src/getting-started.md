@@ -1,309 +1,193 @@
-# Getting Started
+# Kezdő lépések
 
 <!-- toc -->
 
-## Installing & Upgrading
+## Telepítés és frissítés
 
-Please see the instructions for your computer:
+Kérjük, tekintsd meg a számítógépedhez tartozó utasításokat:
 
 - [Windows](./platform/windows/installing.md)
 - [Mac](./platform/mac/installing.md)
 - [Linux](./platform/linux/installing.md)
 
-## Videos
+## Videók
 
-For a quick way to dive into Anki, have a look at these intro
-videos. Some were made with a previous Anki version, but the concepts
-are the same.
+Ha gyorsan szeretnél elmerülni az Ankiban, nézd meg ezeket a bemutatkozó videókat. Némelyik egy korábbi Anki verzióval készült, de a koncepció ugyanaz.
 
-- [Shared Decks and Review Basics](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on)
+- [Megosztott paklik és a felülvizsgálat alapjai](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on)
 
-- [Syncing](https://www.youtube.com/watch?v=YkiM4DPzSVc&list=PLGgmaKOIHykFoomqkBJAyGiDQ2kyiuTao&yt:cc=on)
+- [Szinkronizálás](https://www.youtube.com/watch?v=YkiM4DPzSVc&list=PLGgmaKOIHykFoomqkBJAyGiDQ2kyiuTao&yt:cc=on)
 
-- [Switching Card Order](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
+- [Kártyák sorrendjének megváltoztatása](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
 
-- [Styling Cards](http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on)
+- [Kártyák formázása](http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on)
 
-- [Typing in the Answer](http://www.youtube.com/watch?v=5tYObQ3ocrw&yt:cc=on)
+- [Válasz beírása](http://www.youtube.com/watch?v=5tYObQ3ocrw&yt:cc=on)
 
-If YouTube is unavailable in your country, you can [download the videos](https://apps.ankiweb.net/downloads/archive/screencasts/2.0/)
-instead.
+Ha a YouTube nem érhető el az országodban, akkor a [töltsd le a videókat](https://apps.ankiweb.net/downloads/archive/screencasts/2.0/) helyette.
 
-## Key Concepts
+## Kulcsfogalmak
 
-### Cards
+### Kártyák
 
-A question and answer pair is called a _card_. It's similar to a paper
-flashcard with a question on the front and answer on the back. However, in
-Anki, a card doesn't look like a physical card, and when you
-show the answer the question remains visible by default. For example, if
-you're studying basic chemistry, you might see a question like:
+A kérdés-válasz párost _kártyának_ nevezzük. Ez olyan, mint egy papír tanulókártya, amelynek az elején a kérdés, a hátoldalán pedig a válasz található. Az Ankiban azonban a kártya nem úgy néz ki, mint egy fizikai kártya, és amikor megmutatja a választ, a kérdés alapértelmezés szerint látható marad. Ha például alapfokú kémiát tanulsz, akkor egy olyan kérdést láthatsz, mint pl:
 
-    Q: Chemical symbol for oxygen?
+    K: Mi az oxigén kémiai szimbóluma?
 
-After deciding the answer is O, you click the
-"Show Answer" button, and Anki shows you:
+Miután eldöntötte, hogy a válasz O, kattintson a "Válasz megjelenítése" gombra, és az Anki megmutatja:
 
-    Q: Chemical symbol for oxygen?
-    A: O
+    K: Mi az oxigén kémiai szimbóluma?
+    V: O
 
-After confirming that you are correct, you tell Anki how well you
-remembered the answer, and Anki will choose when to show you the card again. For example, Anki might decide to show you the card again in 3 days. In this case, we say the card now has a 3 day interval.
+A helyes válasz megerősítése után add meg az Ankinak, hogy mennyire jól emlékszel a válaszra, és az Anki eldönti, hogy mikor mutassa meg újra a kártyát. Anki például dönthet úgy, hogy 3 nap múlva újra megmutatja a kártyát. Ebben az esetben azt mondjuk, hogy a kártyának most 3 napos intervalluma van.
 
-#### Card States
+#### Kártya állapotok
 
 <div id="types-of-cards" />
 
-- **New:** Cards that you have downloaded or created yourself, but have never studied before.
+- **Új:** Kártyák, amelyeket letöltöttél vagy saját magad készítettél, de még soha nem tanulmányoztad őket.
 
-- **Learning:** Cards that were seen for the first time recently, and are still being learnt.
+- **Tanulás:** Kártyák, amelyeket a közelmúltban láttál először, és amelyeket még mindig tanulsz.
 
-- **Review:** Cards that you have finished learning. These cards will be shown again after their delay (interval) has elapsed.
-  There are two types of review cards:
-  - **Young:** A young card is one that has an interval of less than 21 days.
-  - **Mature:** A mature card is one that has an interval of 21 days or greater.
+- **Felülvizsgálat:** Kártyák, amelyek tanulása befejeződött. Ezek a kártyák a késleltetésük (intervallum) letelte után ismét megjelennek.
+  Kétféle felülvizsgálat állapotú kártya létezik:
+  - **Friss:** A friss kártya olyan kártya, amelynek az időintervalluma 21 napnál rövidebb.
+  - **Veterán:** A veterán kártya olyan kártya, amelynek az időintervalluma 21 nap vagy annál hosszabb.
 
-- **Relearn:** Cards that you forgot in the review stage. These cards are returned to the relearning state to be learned again.
+- **Újratanulás:** Kártyák, amelyeket az átnézési szakaszban elfelejtettél. Ezek a kártyák visszakerülnek az újratanulási állapotba, hogy újra megtanuld őket.
 
-### Decks
+### Paklik
 
-A _deck_ is a group of cards. You can place cards in different decks to
-study parts of your card collection instead of studying everything at
-once. Each deck can have different settings, such as how many new cards
-to show each day, or how long to wait until cards are shown again.
+A _pakli_ kártyák csoportja. A kártyákat különböző paklikba helyezheted, hogy a kártyagyűjteményed egyes részeit tanulmányozhasd, ahelyett, hogy mindent egyszerre tanulmányoznál. Minden paklihoz különböző beállítások tartozhatnak, például, hogy naponta hány új kártyát mutasson meg, vagy hogy mennyi ideig várjon a kártyák újbóli megjelenítéséig.
 
-Decks can contain other decks, which allows you to organize decks into a
-tree. Anki uses double colons ("::") to show different levels within the deck tree. For example, a deck called
-"Chinese::Hanzi" refers to a "Hanzi" deck, which is part of a "Chinese"
-deck. If you select "Hanzi", then only the Hanzi cards will be shown; if
-you select "Chinese", then all the Chinese cards will be shown, including the Hanzi cards.
+A paklik tartalmazhatnak más paklikat, ami lehetővé teszi, hogy a paklikat egy fába rendezd. Az Anki kettős kettőspontokat ("::") használ a paklifán belüli különböző szintek jelölésére. Például a "Kínai::Hanzi" nevű pakli a "Hanzi" paklira utal, amely a "Kínai" pakli része. Ha a "Hanzi" lehetőséget választod, akkor csak a Hanzi kártyák jelennek meg; ha a "Kínai" lehetőséget választod, akkor az összes kínai kártya megjelenik, beleértve a Hanzi kártyákat is.
 
-To place decks within a tree, you can either name them with double colons between
-each level, or drag and drop them within the deck list. Decks that have
-been placed inside another deck are often called "subdecks", and top-level decks are called "parent decks".
+A paklikat a fán belül úgy helyezheted el, hogy vagy elnevezed őket, és az egyes szintek között dupla kettőspontot teszel, vagy pedig a paklik listáján belül húzod őket. A másik paklikon belül elhelyezett paklikat gyakran "alpakliknak", a legfelső szintű paklikat pedig "szülőpakliknak" nevezik.
 
-Anki starts with a deck called "Default"; any cards which have somehow
-become separated from other decks will go here. Anki will hide the
-default deck if it contains no cards and you have added other decks.
-Alternatively, you may rename this deck and use it for other cards.
+Az Anki egy "Alapértelmezett" nevű paklival indul; minden olyan kártya, amely valahogyan elkülönült a többi pakliból, ide kerül. Az Anki elrejti az alapértelmezett paklit, ha az nem tartalmaz kártyákat, és más paklikat is felvettél. Alternatívaként átnevezheted ezt a paklit, és használhatod más kártyák számára.
 
-Decks in the deck list are sorted alphabetically. This can result in
-a surprising order if your deck names contain numbers. For example, "My Deck 10"
-will come before "My Deck 9", as 1 comes before 9. If you want "My deck 9" to appear earlier, you can rename it to "My deck 09", which appears before "My deck 10".
+A paklik a paklilistában ábécé sorrendben vannak. Ez meglepő sorrendet eredményezhet, ha a paklik nevei számokat tartalmaznak. Például a "Pakli 10" a "Pakli 9" elé kerül, mivel az 1 a 9 előtt van. Ha azt szeretnéd, hogy a "Pakli 9" előbb jelenjen meg, átnevezheted "Pakli 09"-re, amely a "Pakli 10" előtt jelenik meg.
 
-Decks are best used to hold broad categories of cards, rather than
-specific topics such as "food verbs" or "lesson 1". For more information about
-this, please see the [using decks appropriately](editing.md#using-decks-appropriately) section.
+A kártyapaklikat a legjobb a kártyák széles kategóriáinak, nem pedig az olyan konkrét témáknak a tárolására használni, mint például az "ételek" vagy az "1. lecke". Erről bővebb információt a [paklik megfelelő használatáról](editing.md#using-decks-appropriately) szóló részben találsz.
 
-For information on how the order of decks affects the order cards are studied in,
-please see the [display order](studying.md#display-order) section.
+Arról, hogy a paklik sorrendje hogyan befolyásolja a kártyák tanulmányozásának sorrendjét, lásd a [megjelenítési sorrendre](studying.md#display-order) vonatkozó részt.
 
-### Notes & Fields
+### Jegyzetek és mezők
 
-When making flashcards, it’s often desirable to make more than one card
-that relates to the same information. For example, if you’re learning
-French, and you learn that the word _bonjour_ means hello, you may
-wish to create one card that shows you "bonjour" and asks you to
-remember "hello", and another card that shows you "hello" and asks you
-to remember "bonjour". One card is testing your ability to recognize the
-French word, and the other card is testing your ability to produce it.
+A tanulókártyák készítésekor gyakran javasolt, hogy egynél több kártyát készítsünk, amelyek ugyanarra az információra vonatkoznak. Ha például franciát tanulsz, és megtudod, hogy a bonjour szó azt jelenti, hogy "helló", akkor érdemes egy olyan kártyát készítened, amelyen a "bonjour" szó szerepel, és arra kérdez rá, mennyire emlékszel a "helló" szóra, és egy másik kártyát, amelyen a "helló" szó szerepel, és arra kérdez rá, mennyire jegyezted meg a "bonjour" szót. Az egyik kártya a francia szó felismerésének képességét teszteli, a másik kártya pedig a szó aktív felidézését méri.
 
-When using paper flashcards, your only option in this case is to write
-out the information twice, once for each card. Some flashcard
-programs make life easier by providing a feature to flip the front and
-back sides. This is an improvement over the paper situation, but there
-are two major downsides:
+Ha papír tanulókártyákat használsz, ebben az esetben az egyetlen lehetőség, hogy kétszer írod ki az információt, egyszer minden kártyára. Egyes tanulókártya-programok megkönnyítik az életet azzal, hogy az elülső és a hátsó oldal megfordítására szolgáló funkciót biztosítanak. Ez előrelépés a papíralapú helyzethez képest, de két nagy hátránya van:
 
-- Because such programs don’t track your performance of recognition
-  and production separately, cards will tend not to be shown to you at
-  the optimum time, meaning you forget more than you’d like, or you
-  study more than is necessary.
+- Mivel az ilyen programok nem követik külön a felismerési és az aktív felidézési teljesítményedet, a kártyákat általában nem az optimális időben mutatják meg neked, ami azt jelenti, hogy többet felejtesz el, mint szeretnél, vagy többet tanulsz, mint szükséges lenne.
 
-- Reversing the question and answer only works when you want exactly
-  the same content on each side. This means it’s not possible to
-  display extra info on the back of each card for example.
+- A kérdés és a válasz megfordítása csak akkor működik, ha mindkét oldalon pontosan ugyanazt a tartalmat szeretnéd. Ez azt jelenti, hogy például nem lehetséges extra információkat megjeleníteni a kártyák hátoldalán.
 
-Anki solves these problems by allowing you to split the content of your
-cards up into separate pieces of information. You can then tell Anki
-which pieces of information you want on each card, and Anki takes care of creating the cards for you, and updating them if you make any
-edits in the future.
+Az Anki megoldja ezeket a problémákat azzal, hogy lehetővé teszi a kártyák tartalmának különálló információkra való felosztását. Ezután megmondhatod az Ankinak, hogy melyik információ melyik kártyán szerepeljen, és az Anki gondoskodik a kártyák elkészítéséről, és frissíti azokat, ha a jövőben bármilyen módosítást végzel.
 
-Imagine we want to study French vocabulary, and we want to include a textbook
-page number on the back of each card. We want our cards to look like
-this:
+Képzeljük el, hogy francia szókincset akarunk tanulni, és minden kártya hátoldalán szerepeltetni akarunk egy tankönyvi oldalszámot. Azt szeretnénk, ha a kártyáink így néznének ki:
 
-    Q: Bonjour
-    A: Hello
-       Page #12
+    K: Bonjour
+    V: Helló
+       12. oldal
 
-And this:
+És így:
 
-    Q: Hello
-    A: Bonjour
-       Page #12
+    K: Helló
+    V: Bonjour
+       12. oldal
 
-In both cards, we have the same three related pieces of information: a French
-word, an English meaning, and a page number. If we put them together,
-they’d look like this:
+Mindkét kártyán ugyanaz a három kapcsolódó információ található: egy francia szó, egy angol jelentés és egy oldalszám. Ha összerakjuk őket, így néznek ki:
 
-    French: Bonjour
-    English: Hello
-    Page: 12
+    Francia: Bonjour
+    Magyar: Helló
+    Oldal: 12
 
-In Anki, this collection of related information is called a _note_ and each piece of information is contained in a _field_. In this example, the note
-has three fields: "French", "English", and "Page".
+Az Ankiben a kapcsolódó információknak ezt a gyűjteményét _jegyzetnek_ nevezzük, és minden egyes információ egy _mezőben_ található. Ebben a példában a jegyzetnek három mezője van: "Francia", "Angol" és "Oldal".
 
-To add and edit fields, click the "Fields…​" button while adding or
-editing notes. For more information on fields, please see the
-[Customizing Fields](editing.md#customizing-fields) section.
+A mezők hozzáadásához és szerkesztéséhez kattints a "Mezők..." gombra a jegyzetek hozzáadása vagy szerkesztése közben. A mezőkkel kapcsolatos további információkért lásd a [Mezők testreszabása](editing.md#customizing-fields) című részt.
 
-### Card Types
+### Kártyatípusok
 
-In order for Anki to create cards based on our notes, we need to give it
-a blueprint that says which fields should be displayed on the front or
-back of each card. This blueprint is called a _card type_. Each type of
-note can have one or more card types; when you add a note, Anki will
-create one card for each card type.
+Ahhoz, hogy az Anki képes legyen kártyákat készíteni a jegyzeteink alapján, meg kell adnunk neki egy tervezetet, amely megmondja, hogy mely mezők jelenjenek meg az egyes kártyák elülső vagy hátsó oldalán. Ezt a tervezetet _kártyatípusnak_ nevezzük. Minden jegyzettípushoz egy vagy több kártyatípus tartozhat; amikor jegyzetet adunk hozzá, az Anki minden kártyatípushoz létrehoz egy-egy kártyát.
 
-All card types have two _templates_, one for the question and one for the
-answer. In the previous French example, we wanted the back of our recognition card to
-look like this:
+Minden kártyatípusnak két sablonja van, egy a kérdéshez és egy a válaszhoz. Az előző francia példában azt akartuk, hogy a felismerő kártyánk hátoldala így nézzen ki:
 
-    Q: Bonjour
-    A: Hello
-       Page #12
+    K: Bonjour
+    V: Helló
+       12. oldal
 
-To do this, we can set the answer template to:
+Ehhez beállíthatjuk a válasz sablonját::
 
-    Q: {{French}}
-    A: {{English}}<br>
-       Page #{{Page}}
+    K: {{French}}
+    V: {{English}}<br>
+       {{Page}}. oldal
 
-In card templates, field names are wrapped in double curly brackets, like `{{French}}` or `{{English}}`. Anki replaces those with the actual text the fields contain. This is called a ["Field replacement"](templates/fields.md). Text not wrapped in double curly brackets appears the same on each card. For example, we won't need to add "Page \#" on every note because the template will add it automatically to every card. The `<br>` tag is
-a special code that tells Anki to move to the next line. For details, see the [templates](templates/intro.md) section.
+A kártyasablonokban a mezőnevek dupla szögletes zárójelbe vannak zárva, mint például {{French}} vagy {{English}}. Az Anki ezeket a mezőkben található tényleges szöveggel helyettesíti. Ezt nevezzük a ["mező cseréjének"](templates/fields.md). A nem dupla szögletes zárójelbe tett szöveg minden kártyán ugyanúgy jelenik meg. Például nem kell minden jegyzethez hozzáadnunk az ". oldal" szöveget, mert a sablon automatikusan hozzáadja minden kártyához. A `<br>` tag egy speciális kód, amely azt mondja az Ankinak, hogy lépjen a következő sorra. A részletekért lásd a [sablonok](templates/intro.md) részben.
 
-The production card's templates will also work in a similar way:
+Az aktív felimserést tesztelő kártya sablonjai is hasonló módon működnek majd.:
 
-    Q: {{English}}
-    A: {{French}}<br>
-       Page #{{Page}}
+    K: {{English}}
+    V: {{French}}<br>
+       {{Page}}. oldal
 
-After a card type has been created, every time you add a new note, a card
-will be created based on that card type. Card types make it easy to keep
-the formatting of your cards consistent and can greatly reduce the
-amount of effort involved in adding information. They also mean Anki can
-ensure related cards don't appear too close to each other, and they
-allow you to fix a typing mistake or factual error once and have all the
-related cards update at once.
+Miután létrehoztunk egy kártyatípust, minden alkalommal, amikor új jegyzetet adunk hozzá, az adott kártyatípuson alapuló kártya jön létre. A kártyatípusok megkönnyítik a kártyák egységes formázását, és jelentősen csökkenthetik az információk hozzáadásával járó erőfeszítéseket. Azt is jelentik, hogy az Anki biztosítani tudja, hogy a kapcsolódó kártyák ne jelenjenek meg túl közel egymáshoz, és lehetővé teszik, hogy egyszer javítson ki egy gépelési hibát vagy ténybeli tévedést, és az összes kapcsolódó kártya egyszerre frissüljön.
 
-To add and edit card types, click the "Cards…​" button while adding or
-editing notes. For more information on card types, please see the [Cards and Templates](templates/intro.md) section.
+A kártyatípusok hozzáadásához és szerkesztéséhez kattints a "Kártyák..." gombra a jegyzetek hozzáadása vagy szerkesztése közben. A kártyatípusokról további információkat a [Kártyák és sablonok](templates/intro.md) részben találhatsz.
 
-### Note Types
+### Jegyzettípusok
 
-Anki allows you to create different types of notes for different
-material. Each type of note has its own set of fields and card types.
-It's a good idea to create a separate note type for each broad topic
-you're studying. In the previous French example, we might create a note
-type called "French" for that. If we wanted to learn capital cities, we
-could create a note type for that as well, with fields such as
-"Country" and "Capital City".
+Az Anki lehetővé teszi, hogy különböző típusú jegyzeteket hozzon létre különböző anyagokhoz. Minden jegyzettípusnak saját mezői és kártyatípusai vannak. Jó ötlet, ha minden egyes tágabb témakörhöz, amelyet tanulmányoz, külön jegyzettípust hoz létre. Az előző francia példában egy "Francia" nevű jegyzettípust hozhatnánk létre ehhez. Ha fővárosokat szeretnénk tanulni, akkor ehhez is létrehozhatnánk egy jegyzettípust, olyan mezőkkel, mint az "Ország" és a "Főváros".
 
-Anki comes with some standard
-note types included. These note types are provided to make Anki easier for
-new users, but in the long run it's recommended you create your own note
-types specifically for the content you are learning. The standard note types are:
+Az Anki néhány standard jegyzettípust tartalmaz. Ezek a jegyzettípusok azért vannak megadva, hogy megkönnyítsék az Anki használatát az új felhasználók számára, de hosszú távon ajánlott saját jegyzettípusokat létrehozni, kifejezetten a tanult tartalomhoz. A standard jegyzettípusok a következők:
 
-- **Basic**\
-  Has "Front" and "Back" fields, and will create one card. Text you enter in
-  "Front" will appear on the front of the card, and text you enter in "Back"
-  will appear on the back of the card.
+- **Alap**\
+  "Előlap" és "Hátlap" mezőkkel rendelkezik, és egy kártyát hoz létre. Az "Előlap" mezőbe beírt szöveg a kártya előlapján, a "Hátlap" mezőbe beírt szöveg pedig a kártya hátoldalán jelenik meg.
 
-- **Basic (and reversed card)**\
-  Like "Basic", but creates two cards for the text you enter:
-  front→back and back→front.
+- **Alap (mindkét irányban)**\
+  Mint az "Alap", de két kártyát hoz létre a beírt szöveghez: eleje→hátulja és hátulja→eleje.
 
-- **Basic (optional reversed card)**\
-  Like "Basic", but has a third field called "Add Reverse". If you enter any text into
-  that field, a reversed card (back→front) will also be created. For details, see the [Cards and Templates](templates/intro.md) section.
+- **Alap (egyik vagy mindkét irányban)**\
+  Olyan, mint az "Alap", de van egy harmadik mezője, az "Ellenkező irány hozzáadása". Ha bármilyen szöveget írsz ebbe a mezőbe, akkor egy fordított (hátul→elöl) kártya is létrejön. A részleteket lásd a [Kártyák és sablonok](templates/intro.md) szakaszban.
 
-- **Basic (type in the answer)**\
-  This is essentially "Basic", with an extra text box on the front where you
-  can type your answer in. When you reveal the back, Anki will show you any differences between your input and the actual answer. For details, see the
-  [Checking Your Answer](templates/fields.md#checking-your-answer) section.
+- **Alap (írja be a választ)**\
+  Ez lényegében az "Alap", egy extra szövegdobozzal az elején, ahová beírhatod a választ. Amikor a hátlapot feltárja, az Anki megmutatja a beírt és a tényleges válasz közötti különbségeket. A részletekért lásd a [Válaszod ellenőrzése](templates/fields.md#checking-your-answer) című részt.
 
-- **Cloze**\
-  A note type that allows you to select text and turn it into a cloze
-  deletion (e.g. "Humans landed on the moon in \[…​\]" → "Humans landed on the
-  moon in 1969"). For details, see the [cloze deletion](editing.md#cloze-deletion) section.
+- **Lyukas szöveg**\
+  Egy jegyzettípus, lehetővé teszi a szöveg kijelölését és elrejtését (pl. "Az emberek [...] landoltak a Holdon." → "Az emberek 1969-ben landoltak a Holdon"). A részleteket lásd a [Lyukas szöveg](editing.md#cloze-deletion) szakaszban.
 
-- **Image Occlusion**\
-  Like the cloze note type, but it works with images instead of text,
-  which is especially useful when studying material that heavily relies on images,
-  such as anatomy and geography. For details, please see the [Image Occlusion](editing.md#image-occlusion)
-  section of the manual.
+- **Képkitakarás**\
+  Olyan, mint a "Lyukas szöveg" jegyzettípus, de szöveg helyett képekkel dolgozik, ami különösen akkor hasznos, ha olyan anyagot tanulsz, amely nagymértékben támaszkodik a képekre, például anatómia és földrajz. A részleteket lásd a kézikönyv [Képkitakarás](editing.md#image-occlusion) című részében.
 
-To add your own note types and modify existing ones, you can use Tools →
-Manage Note Types from the main Anki window.
+Saját jegyzettípusok hozzáadásához és a meglévők módosításához az Anki főablakában az Eszközök → Jegyzettípusok kezelése menüpontot használhatod.
 
-Notes and note types are common to your whole collection rather than
-limited to an individual deck. This means you can use different
-note types in a single deck, or have cards generated from the
-same note put into different decks. When you add notes using the
-Add window, you can select what note type to use and what deck to use,
-and these choices are completely independent of each other. You can also
-[change the note type of notes](browsing.md#notes) after you've already created them.
+A jegyzetek és a jegyzettípusok az egész gyűjteményben közösek, nem korlátozódnak egy-egy paklira. Ez azt jelenti, hogy különböző jegyzettípusokat használhatsz egyetlen pakliban, vagy az ugyanabból a jegyzetből generált kártyákat különböző paklikba helyezheted. Amikor jegyzeteket adsz hozzá a Hozzáadás ablak segítségével, kiválaszthatod, hogy milyen jegyzettípust és milyen paklit használjon, és ezek a választások egymástól teljesen függetlenek.
+A [jegyzetek típusát megváltoztathatod](browsing.md#notes) a jegyzetek létrehozása után is.
 
-### Collection
+### Gyűjtemény
 
-Your _collection_ is all the material stored in Anki: your cards,
-notes, decks, note types, deck options, and so on.
+A _gyűjteményed_ az Ankiben tárolt összes anyagod: a kártyáid, jegyzeteid, paklijaid, jegyzettípusaid, pakli beállításaid, és így tovább.
 
-## Shared Decks
+## Megosztott paklik
 
-You can watch a video about [Shared Decks and Review Basics](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on) on YouTube.
+A [Megosztott paklikról és a felülvizsgálat alapjairól](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on) szóló videót a YouTube-on nézheted meg.
 
-The easiest way to get started with Anki is to download a deck of cards
-someone else has shared:
+A legegyszerűbb módja az Anki használatának, ha letöltesz egy pakli kártyát, amelyet valaki más osztott meg:
 
-1. Click the "Get Shared" button at the bottom of the deck list.
+1. Kattints a "Megosztott tartalmak" gombra a pakli lista alján.
 
-2. When you've found a deck you're interested in, click the "Download"
-   button to download a deck package.
+2. Ha megtaláltad a számodra érdekes paklit, kattints a "Letöltés" gombra, és töltsd le a paklicsomagot.
 
-3. Double-click the downloaded package to import it into Anki, or go to
-   File → Import.
+3. Kattints duplán a letöltött csomagra, hogy importáld azt az Anki-ba, vagy válassza a Fájl → Importálás menüpontot.
 
-Note: It’s not currently possible to add shared decks
-directly to your AnkiWeb account. You need to first import them to the
-desktop app, AnkiMobile, or AnkiDroid, then [synchronize](./syncing.md) to upload the decks to AnkiWeb.
+Megjegyzés: Jelenleg nem lehetséges megosztott paklikat közvetlenül az AnkiWeb fiókjához hozzáadni. Először importálnod kell őket az asztali alkalmazásba, az AnkiMobile-ba vagy az AnkiDroidba, majd [szinkronizálni](./syncing.md) kell őket, hogy feltöltsd a paklikat az AnkiWebre.
 
-Creating your own deck is the most effective way to learn a complex
-subject. Subjects like languages and the sciences can’t be understood
-simply by memorizing facts — you need explanation and context to
-learn them effectively. Furthermore, inputting the information yourself
-forces you to decide what the key points are, leading to a better
-understanding.
+Egy komplex téma elsajátításának leghatékonyabb módja a saját pakli elkészítése. Az olyan tantárgyakat, mint a nyelvek és a tudományok, nem lehet egyszerűen a tények bemagolásával megérteni - magyarázatra és összefüggésekre van szükség a hatékony tanuláshoz. Ráadásul az információk saját magad általi bevitele arra kényszerít, hogy eldöntsd, melyek a kulcspontok, ami jobb megértéshez vezet.
 
-If you are a language learner, you may be tempted to download a long
-list of words and their translations, but this won’t teach you a
-language any more than memorizing scientific equations will teach you
-astrophysics. To learn properly, you might need textbooks, teachers, or
-exposure to real-world sentences.
+Ha Ön nyelvtanuló, akkor talán kísértésbe esik, hogy letöltsön egy hosszú listát a szavakról és fordításukról, de ez ugyanúgy nem tanít meg egy nyelvet, mint ahogy a tudományos egyenletek memorizálása sem tanít meg asztrofizikára. A megfelelő tanuláshoz szükséged lehet tankönyvekre, tanárokra vagy valós mondatokkal való találkozásra.
 
-    Do not learn if you do not understand.
+    Ne tanulj, ha nem érted.
     --SuperMemo
 
-Most shared decks are created by people who are learning material
-outside Anki, such as from textbooks, classes, TV, etc. They select the
-interesting points from what they learn and put them into Anki. They
-might not make any effort to add background information or explanations to the
-cards, because they already understand the material. So when someone
-else downloads their deck and tries to use it, they might find it very
-difficult as the background information and explanations are missing.
+A legtöbb megosztott paklit olyan emberek hozzák létre, akik az Ankin kívülről tanulják az anyagot, például tankönyvekből, órákról, tévéből stb. Kiválasztják az érdekes pontokat abból, amit tanulnak, és beteszik az Anki-ba. Lehet, hogy nem tesznek erőfeszítést arra, hogy háttérinformációkat vagy magyarázatokat adjanak a kártyákhoz, mert már értik az anyagot. Így amikor valaki más letölti a paklijukat, és megpróbálja használni, nagyon nehéz dolga lehet, mivel hiányoznak a háttérinformációk és a magyarázatok.
 
-That is not to say shared decks are useless. If you’re studying textbook ABC and
-someone has shared a deck of ideas from ABC, that’s a great way to save
-some time. And for simple subjects that are basically a list of facts,
-such as capital city names or country flags, you probably don’t need any
-external material. However, for complex subjects, shared decks should be used as a _supplement_ to external material, not as a _replacement_ for it.
+Ez nem jelenti azt, hogy a megosztott paklik használhatatlanok. Ha egy adott tananyagból tanulsz, és valaki megosztott egy paklit a tananyagban szereplő fogalmakkal, az egy nagyszerű módja annak, hogy időt takaríts meg. Egyszerű témák esetén, amelyek lényegében tények listájából állnak – például fővárosok nevei vagy országzászlók –, valószínűleg nincs szükséged külső forrásokra. Összetettebb témák esetén azonban a megosztott paklikat _kiegészítésként_ kell használni, nem pedig a külső tananyagok _helyettesítésére_.
