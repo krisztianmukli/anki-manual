@@ -25,7 +25,7 @@
     - [Wayland](platform/linux/wayland.md)
     - [Beviteli módszerek](platform/linux/input-methods.md)
 - [Kezdő lépések](getting-started.md)
-- [Getting Help](getting-help.md)
+- [Segítségkérés](getting-help.md)
 - [Studying](studying.md)
 - [Adding/Editing](editing.md)
 - [Card Templates](templates/intro.md)

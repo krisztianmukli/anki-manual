@@ -1,67 +1,52 @@
-# Getting help
+# Segítségkérés
 
-## Asking good questions
+## Jó kérdéseket feltenni
 
-With the exception of AnkiMobile, Anki and its support is provided free of
-charge, by people who generously volunteer their time. Please bear this in mind
-when posting - if you are rude and demanding, or have made no effort to solve
-the problem on your own, people are less likely to want to help you.
+Az AnkiMobile kivételével az Anki és a hozzá tartozó támogatás ingyenes, és olyan emberek biztosítják, akik nagylelkűen önkéntes munkát végeznek. Kérjük, ezt tartsd szem előtt, amikor hozzászólsz - ha goromba és követelőző vagy, vagy nem tettél erőfeszítéseket, hogy saját magad old meg a problémát, az emberek kevésbé valószínű, hogy majd segíteni akarnak neked.
 
-Please start by trying to resolve the issue on your own:
+Először is, próbáld meg saját magad megoldani a problémát:
 
-- Read the [getting started](./getting-started.md) section
-  of the manual, and check out the intro videos.
-- If you've encountered a bug, please follow [these steps](./troubleshooting.md).
-- Use the search button on this page to search frequently asked questions.
-- Use the search button in the manual.
-- Use the search button on the forums.
-- Google the issue.
+- Olvasd el a kézikönyv [Kezdő lépések](./getting-started.md) című részét, és nézd meg a bevezető videókat. 
+- Ha hibával találkoztál, kérjük, kövesd az [alábbi lépéseket](./troubleshooting.md).
+- A gyakran ismételt kérdések megkereséséhez használd a keresés gombot ezen az oldalon.
+- Használd a kézikönyv keresőjét.
+- Használd a fórum keresőjét.
+- Keresd az interneten a megoldási lehetőségeket.
 
-If you have tried the above and are still stuck, it's time to ask for help.
-When writing a post, please explain the problem you are having clearly, and in detail.
+Ha a fentieket már kipróbáltad, de még mindig el vagy akadva, itt az ideje, hogy segítséget kérj. Amikor hozzászólást írsz, kérjük, világosan és részletesen magyarázd el a problémádat.
 
-Please avoid vague questions like:
+Kerüld az olyan homályos kérdéseket, mint:
 
-> "My Anki doesn't work, what should I do?"
+> "Az Anki nem működik, mit tegyek?"
 
-Instead, please provide as much detail as you can. For example:
+Helyette adj meg annyi részletet, amennyit csak tudsz. Például:
 
-> "When I double-click on the Anki icon, an error message pops up. I tried
-> searching for the error on Google, but couldn't find anything useful. I have
-> copied and pasted the error message to the bottom of my post. I followed the
-> steps on the 'When problems occur' page, but the error message does not go
-> away. What should I do?"
+> "Amikor duplán kattintok az Anki ikonra, hibaüzenet jelenik meg. Próbáltam rákeresni a hibára a Google-ban, de nem találtam semmi használhatót. A hibaüzenetet bemásoltam és beillesztettem a hozzászólásom aljára. Követtem a 'Ha problémák merülnek fel' oldalon található lépéseket, de a hibaüzenet nem tűnik el. Mit tegyek?"
 
-This is a much better question. It tells us:
+Ez egy sokkal jobb kérdés, mert elmondja nekünk:
 
-- What you have tried.
-- What steps you are taking when the problem happens.
-- What problems/errors you are getting when things go wrong.
+- Amivel már próbálkoztál.
+- Milyen lépéseket tettél, amikor a probléma bekövetkezett.
+- Milyen problémák/hibák merültek fel, amikor a dolgok rosszra fordultak.
 
-Knowing these things makes it much easier to answer your question.
+Ha tudjuk ezeket a dolgokat, sokkal könnyebb megválaszolni a kérdésed.
 
-The user forums use a different login to AnkiWeb, so please create an
-account there if it's your first time.
+A felhasználói fórum az AnkiWebtől eltérő bejelentkezést használ, ezért arra kérünk, hozz létre ott is egy fiókot, ha ez az első alkalom, amikor használod.
 
-## Anki Desktop (the computer version) and AnkiWeb
+## Asztali Anki (a számítógépes verzió) és az AnkiWeb
 
-After reading the above section, please post on the
-[user forums](https://forums.ankiweb.net) for assistance.
+Miután elolvastad a fentieket, segítségkéréshez írj a [felhasználói fórumra](https://forums.ankiweb.net).
 
-The user forums use a different login to AnkiWeb, so please create an
-account there if it's your first time.
+A felhasználói fórum az AnkiWebtől eltérő bejelentkezést használ, ezért arra kérünk, hozz létre ott is egy fiókot, ha ez az első alkalom, amikor használod.
 
-## AnkiDroid (Android devices)
+## AnkiDroid (Android eszközök)
 
-Please see [AnkiDroid's support page](https://docs.ankidroid.org/help.html).
+Látogasd meg az [AnkiDroid támogatási oldalát](https://docs.ankidroid.org/help.html).
 
 ## AnkiMobile (iPhone/iPad)
 
-Please see [AnkiMobile's support page](https://docs.ankimobile.net/support.html).
+Látogasd meg az [AnkiMobile támogatási oldalát](https://docs.ankimobile.net/support.html).
 
-## Private questions
+## Privát kérdések
 
-For security reports and business enquiries, you can post a private ticket
-[here](https://anki.tenderapp.com/discussions/private). If you have a question
-about Anki, AnkiWeb or AnkiDroid, please use the [user forums](https://forums.ankiweb.net)
-instead.
+Biztonsági jelentések és üzleti kérdések esetén [itt](https://anki.tenderapp.com/discussions/private) küldhetsz privát jegyet. Ha az Anki, AnkiWeb vagy AnkiDroid rendszerrel kapcsolatos kérdésed van, kérjük, használd inkább a [felhasználói fórumokat](https://forums.ankiweb.net).
